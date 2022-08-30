@@ -6,7 +6,7 @@
     margin-right: 30px;
 }
 
-.foto__list {
+.foto {
     display: flex;
 }
 
@@ -16,7 +16,7 @@ img {
     max-width: 100%;
 }
 
-.foto__title,
+.section__title,
 .hero-title {
     font-weight: 700;
     font-size: 36px;
@@ -27,11 +27,11 @@ img {
     margin-bottom: 50px;
 }
 
-.foto__bottom {
+.foto__box {
     position: relative;
 }
 
-.work__lister {
+.foto__text {
     display: flex;
     align-items: center;
     justify-content: center;

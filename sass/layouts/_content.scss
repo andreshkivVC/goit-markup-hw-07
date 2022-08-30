@@ -1,4 +1,4 @@
-.content__list {
+.content {
     display: flex;
     flex-wrap: wrap;
     & .content__item:not(:last-child) {
@@ -20,14 +20,14 @@
     margin-bottom: 10px;
 }
 
-.content__pre-title {
+.content__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second--title--color);
 }
 
-.potfolio__icon {
+.content__icon-box {
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;

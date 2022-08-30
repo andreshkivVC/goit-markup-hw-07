@@ -15,11 +15,12 @@
 .client-item {
     width: 170px;
     height: 92px;
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
-.client-item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .client-soc-link {
     outline: none;
